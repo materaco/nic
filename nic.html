@@ -1,51 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Animacja TikTok</title>
-  <style>
-    .container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      background-color: #f5f5f5;
-    }
-
-    .logo {
-      width: 100px;
-      height: 100px;
-      background-image: url('logo_tiktok.png');
-      background-size: cover;
-      animation: rotate 2s linear infinite;
-    }
-
-    @keyframes rotate {
-      0% {
-        transform: rotate(0deg);
-      }
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-
-    .input-container {
-      margin-left: 20px;
-    }
-
-    .input-container input {
-      padding: 10px;
-      font-size: 16px;
-      border: none;
-      border-radius: 5px;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="logo"></div>
-    <div class="input-container">
-      <input type="text" placeholder="Wpisz nick do TikToka">
-    </div>
+  <div class="chat-frame">
+CHAT <span style="font-size: 15px; color: red;">🔴</span>
+    <!-- Tutaj możesz umieścić kod do wyświetlania czatu z Twitcha -->
   </div>
 </body>
 </html>
